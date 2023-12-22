@@ -1,0 +1,229 @@
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #707174;
+}
+
+nav {
+  
+  text-decoration: none;
+  background-color: #330303;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav-logo a {
+  text-decoration: none;
+  /* font-size: large; */
+  /* font-weight: bolder; */
+  width: 56px;
+  height: 56px;
+}
+
+nav li {
+  list-style: none;
+  font-size: large;
+  font-weight: bolder;
+  
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-menu {
+  
+  display: flex;
+  
+  gap: 40px;
+  align-items: end;
+}
+
+container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-size: calc(10px + 2vmin);
+  /* color: white; */
+}
+
+.content-box {
+  padding: 5px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  min-width: 30vw;
+}
+
+form {
+  display: block;
+  justify-items: start;
+  min-width: 30vw;
+  height: auto;  
+  /* padding: 2.5rem; */
+  /* border-radius: 10px; */
+  /* background-color: #1F2937; */
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+form > input, button {
+  
+  margin-top: 20px;  
+  
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  padding: 10px ;
+  width: 100%;
+  color: white;
+  background-color: #2563EB;
+  font-size: 1rem;
+  
+}
+
+button:hover {
+  background-color: #1D4ED8;
+  
+}
+
+input {
+  width: 90%;
+  /* height: 30px; */
+  border-radius: 10px;
+  border: 1px solid ;
+  padding: 15px;
+  margin-top: 10px;
+  
+}
+
+.header {
+  font-size: 3em;
+}
+
+.profile-name {
+  font-size: 2em;
+}
+
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.profile-header{
+  
+  width: 100vw;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+.profile-account{
+  padding: 20px;
+  margin: 10px;
+  display: block;
+  
+  
+}
+
+.profile-account > div {
+  margin-top: 10px;
+  
+}
+
+.profile-account-items {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+.profile-items{
+  display: block;
+  padding: 20px;
+  margin: 10px;
+  width: 40vw;
+  height: 35vh;
+}
+
+.table-style {
+  color: black;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  min-width: 30vw;
+  
+}
+
+table {
+  position: relative;
+  
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  min-width: 30vw;
+  
+}
+
+tr th {
+  background: red;
+  padding:5px;
+}
+
+td {
+  position: sticky;
+  padding: 10px 10px 0 10px;
+}
+
